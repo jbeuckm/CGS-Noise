@@ -12978,8 +12978,8 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <instance part="R18" gate="G$1" x="129.54" y="81.28" rot="R180"/>
 <instance part="P-3" gate="1" x="121.92" y="71.12"/>
 <instance part="BIPOLAR" gate="G$1" x="182.88" y="101.6" rot="R180"/>
-<instance part="GND10" gate="1" x="142.24" y="93.98"/>
-<instance part="GND11" gate="1" x="175.26" y="96.52"/>
+<instance part="GND10" gate="1" x="142.24" y="91.44"/>
+<instance part="GND11" gate="1" x="175.26" y="91.44"/>
 <instance part="IC2" gate="A" x="-2.54" y="55.88" rot="MR180"/>
 <instance part="IC2" gate="B" x="68.58" y="33.02" rot="MR180"/>
 <instance part="IC2" gate="C" x="132.08" y="43.18" rot="MR180"/>
@@ -13059,11 +13059,12 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <segment>
 <pinref part="POS_NOISE" gate="G$1" pin="RING"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="142.24" y1="99.06" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="99.06" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BIPOLAR" gate="G$1" pin="RING"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="175.26" y1="93.98" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">

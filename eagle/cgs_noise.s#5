@@ -12935,7 +12935,6 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <instance part="IC1" gate="B" x="68.58" y="33.02" rot="MR180"/>
 <instance part="IC1" gate="C" x="132.08" y="43.18" rot="MR180"/>
 <instance part="IC1" gate="D" x="165.1" y="53.34" rot="MR180"/>
-<instance part="IC1" gate="P" x="12.7" y="116.84"/>
 <instance part="C2" gate="G$1" x="20.32" y="119.38"/>
 <instance part="GND1" gate="1" x="12.7" y="101.6"/>
 <instance part="P+1" gate="1" x="12.7" y="134.62"/>
@@ -13078,7 +13077,6 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="121.92" x2="20.32" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="P" pin="V+"/>
 <wire x1="20.32" y1="132.08" x2="12.7" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="132.08" x2="12.7" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>

@@ -12904,6 +12904,9 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <part name="R13" library="rcl" deviceset="R-US_" device="0207/10" value="33k"/>
 <part name="R14" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="R15" library="rcl" deviceset="R-US_" device="0207/10" value="220k"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="0207/10" value="330R"/>
+<part name="C15" library="rcl" deviceset="CPOL-US" device="B45181A" value="47u"/>
+<part name="R17" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -12967,6 +12970,9 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <instance part="R13" gate="G$1" x="154.94" y="22.86" rot="R180"/>
 <instance part="R14" gate="G$1" x="149.86" y="55.88" rot="R180"/>
 <instance part="R15" gate="G$1" x="165.1" y="40.64" rot="R180"/>
+<instance part="R16" gate="G$1" x="142.24" y="71.12" rot="R270"/>
+<instance part="C15" gate="G$1" x="149.86" y="81.28" rot="R90"/>
+<instance part="R17" gate="G$1" x="170.18" y="81.28" rot="R180"/>
 </instances>
 <busses>
 </busses>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12922,7 +12922,7 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 </plain>
 <instances>
 <instance part="R7" gate="G$1" x="-58.42" y="81.28" rot="R90"/>
-<instance part="PWR1" gate="G$1" x="-30.48" y="114.3"/>
+<instance part="PWR1" gate="G$1" x="-22.86" y="114.3"/>
 <instance part="U$2" gate="G$1" x="0" y="119.38" rot="R90"/>
 <instance part="U$3" gate="G$1" x="0" y="114.3" rot="R90"/>
 <instance part="C5" gate="G$1" x="12.7" y="124.46"/>
@@ -12993,7 +12993,7 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <segment>
 <pinref part="PWR1" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="-20.32" y1="116.84" x2="12.7" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="116.84" x2="12.7" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="116.84" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="116.84" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
@@ -13145,14 +13145,14 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <segment>
 <pinref part="PWR1" gate="G$1" pin="+12V"/>
 <pinref part="U$2" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="119.38" x2="-7.62" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="119.38" x2="-7.62" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="PWR1" gate="G$1" pin="-12V"/>
 <pinref part="U$3" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="114.3" x2="-7.62" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="114.3" x2="-7.62" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
