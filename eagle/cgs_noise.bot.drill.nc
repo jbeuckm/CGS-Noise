@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../eurorack/CGS-Noise/eagle/cgs_noise.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 1/8/16 9:20 PM)
+(This file generated 1/9/16 1:13 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 20000.0000)
